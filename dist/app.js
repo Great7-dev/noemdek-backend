@@ -11,8 +11,6 @@ const database_config_1 = __importDefault(require("./config/database.config"));
 const cors_1 = __importDefault(require("cors"));
 require("dotenv/config");
 const users_1 = __importDefault(require("./routes/users"));
-// import accountRouter from './routes/account';
-// import withdrawalRouter from './routes/withdrawal'
 (0, database_config_1.default)();
 const app = (0, express_1.default)();
 app.use((0, cors_1.default)());
