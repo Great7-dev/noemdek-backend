@@ -9,8 +9,7 @@ import 'dotenv/config';
 
 
 import userRouter from './routes/users';
-// import accountRouter from './routes/account';
-// import withdrawalRouter from './routes/withdrawal'
+
 
 connectDB()
 
