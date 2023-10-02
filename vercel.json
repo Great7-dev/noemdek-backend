@@ -8,6 +8,10 @@
   ],
   "routes": [
     {
+      "src": "/users/(.*)",
+      "dest": "/dist/app.js"
+    },
+    {
       "src": "/(.*)",
       "dest": "/"
     }
