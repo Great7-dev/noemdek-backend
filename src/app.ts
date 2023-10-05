@@ -16,7 +16,7 @@ connectDB()
 const app = express();
 
 const corsOptions = {
-  origin: 'http://localhost:3000', // Replace with your frontend's actual origin
+  origin: 'https://noemdek-frontend-lt85cpij2-great7-devs-projects.vercel.app', // Replace with your frontend's actual origin
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true, // Enable cookies and other credentials to be included in the request (if needed)
 };

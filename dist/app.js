@@ -14,7 +14,7 @@ const users_1 = __importDefault(require("./routes/users"));
 (0, database_config_1.default)();
 const app = (0, express_1.default)();
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    origin: 'https://noemdek-frontend-lt85cpij2-great7-devs-projects.vercel.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // Enable cookies and other credentials to be included in the request (if needed)
 };
